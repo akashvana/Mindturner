@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="/static/styles.css" rel="stylesheet" type="text/css">
+    <title>Congratulations</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li class="congo">Congratulations, {{ name }} !</li>
+        <li class="button"><a href="{{ url_for('logout') }}">Logout</a></li>
+      </ul>
+    </div>
+
+
+    <div class="congratspage">
+      <div class="congrats">
+        <h3>We thank you for taking the time to solve to the end</h3>
+        <h3>This is the Current Leaderboard</h3>
+        <h3>You will be contacted if you are eligible for a prize</h3>
+        <h4 style="font-size: large; padding-left: 5px;">Contributors:</h4>
+        <h4>Aadit</h4>
+        <h4>Animesh</h4>
+        <h4>Chinmay</h4>
+        <h4>Kaival</h4>
+        <h4>Mitesh</h4>
+        <h4>Pranav</h4>
+      </div>
+      <div class="rightside">
+        <div class="slide" style="margin-top: 10px">
+          <ul class="leaderboard">
+            <table>
+              <p style="text-align: center; font-size: large; margin: 5px 0px;">Leaderboard</p>
+              {% for entry in leaderboard %}
+                <tr>{{ entry|safe }}</tr>
+              {% endfor %}
+            </table>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

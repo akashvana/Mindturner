@@ -1,0 +1,210 @@
+body{
+  margin: 0;
+  zoom: 110%;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: column;
+}
+
+.questionpage{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.title{
+  background-color: #222;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: white;
+  height: 150px;
+}
+
+.question-container{
+  margin-left: 10px;
+  width: 70%;
+}
+
+.rightside {
+  margin-left: 10px;
+}
+
+.slide{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 10px;
+}
+
+ul.leaderboard {
+  background-color: #A8D1FF;
+  border-radius: 20px;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  height: auto;
+}
+
+.leaderboard td{
+  padding: 0 4px 4px 4px;
+}
+
+ul.qrules{
+  text-align: center;
+  list-style-type: none;
+  background-color: #E1ECF9;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.message-success{
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 20px 0 20px;
+}
+.message-fail{
+  background-color: #B22222;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 20px 0 20px;
+}
+
+.forms{
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rules{
+  background-color: #E1ECF9;
+  padding: 10px;
+  color: #303030;
+  width: 40%;
+  height: auto;
+  margin-bottom: auto;
+  border-radius: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.navbar li{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.congratspage{
+  display: flex;
+  flex-direction: row;
+}
+
+.congrats{
+  width: 68%;
+}
+
+li.congo{
+  background-color: #222;
+  display: block;
+  color: white;
+  margin: auto;
+  padding: 20px 20px;
+  font-size: xx-large;
+}
+
+.congrats h3{
+  background-color: #236AB9;
+  display: block;
+  color: white;
+  margin: auto;
+  padding: 5px 0 5px 20px;
+}
+
+.logreg{
+  text-align: center;
+  font-size: x-large;
+  color: #236AB9;
+  margin: 5px;
+}
+
+.congrats h4{
+  background-color: #E1ECF9;
+  display: block;
+  margin: auto;
+  padding: 10px 0 10px 40px;
+}
+
+li.button{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #B22222;
+}
+
+li.button a{
+  color: white;
+  text-decoration: none;
+  padding: auto;
+  margin: 0;
+}
+
+.navbar li:hover:not(.button):not(.congo) {
+  background-color: #111;
+}
+
+label {
+  width: 30%;
+  display: inline-block;
+  font-size: 100%;
+}
+
+input[type=text],input[type=email],input[type=tel],input[type=password] {
+  width: 65%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: lightblue;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #236AB9;
+  color: white;
+  padding: 8px 16px;
+  margin: 6px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #609CE1;
+}

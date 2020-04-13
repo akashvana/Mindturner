@@ -1,0 +1,103 @@
+Stage 1
+Find the sentence enclosed within the cipher:  niwliteotbitsflesruoyghoteraperp. Hint: 4 word sentence. All Small
+ans) prepare yourself to win
+
+If demon = rockstar = 100<br>Shwarzenneger = JungleBook = 200<br>Then, Avengers = ?
+Hint: Consonants?
+ans) 150
+
+I try to open the laptop of my friend but I don\'t know the password. So, I look for the hint which is:
+A dog B cat C jimmy D corne E witty F greywolf G plateau
+Can you help me guess the password(ABCDEFG)?
+Hint: 7 letter string, no spaces, all small, try counting.
+ans) damnyou
+
+Guess the correct code with the help of the following clues(without spaces):<br>
+a g z: Exactly one letter is perfectly placed.
+c z q: Everything is incorrect.
+d f a: Two letters are part of the code, but are wrongly placed.
+p g w: One letter is part of the code, but is wrongly placed.
+z p f: One letter is part of the code, but is wrongly placed.
+Hint: 3 letters, without spaces.
+ans) adp
+
+Stage 2
+Decode the following puzzles:<br>
+1. GRAY + 'I'VORY + MAROON = ORANGE<br>
+2. EINS + EIN'S' + EINS + DREI + DR'E'I = NEUN<br>
+3. MINT + PE'P'PER + TOMAT'O' = CARROT<br><br>
+Using characters(lowercase) or decoded numbers in apostrophe, fill the (space)(s) in<br>
+https://www.bits-pilani.ac.in/Pilani/listing.aspx?c(space)d=5(space)5&(space)d=110<br><br>
+What is the ping ip address?
+ans) 172.22.2.53
+
+If DD = 24
+EEE = 93
+NEED = 344
+DEN = 117
+Then what is END = ?
+Hint: Try calculating your CG, ACBs more welcome than the rest :p
+ans) 89
+
+If 2+4^8 is 50139
+8+8/2-4 is 9094561
+18*12^4 is 8978531
+Then what is 21^8/4?
+ans) :')
+
+Stage 3
+Tom uses an algorithm to decide which website will he visit today. The website begins with address like Mindturner/solve/... but he doesnt remember what came after the '/'. What he does remember is the algorithm. The next letters in the link are given by the following algo:
+Rule 1:   The digits in that days date (dd/mm/yy) appear in the link. One digit appears exactly once
+Rule 2:   The rest characters are letters of the english alphabet and on rearranging forms a meaningful word
+Rule 3:   If the date is odd, the digits take up odd places and are in the ascending order. If date is even, they are in even places and are in descending order
+Rule 4:   The letters are always distinct
+Rule 5:   Total no. of permutations of the link trail (considering no constraints) is 40320
+Rule 6:   The word formed by the letters is the name of a software. Tom uses the software daily!
+Rule 7:   Interestingly, the name is such that the letters of the proper noun when written in computer code are in the order of increasing ascii values
+Rule 8:   The arrangement in the link is such that the letters are arranged first and the digits fill the gap. Digit may begin if the date is odd and the next gaps are compulsorily filled till we run out of digits. If date is even, the largest digit ends the link. The letters are put alphabetically
+Help Tom access the website.
+ans)'1i7L9nux' for 17th,'i1L6n9ux' for 16th
+
+
+A long time ago in a galaxy far away, on a strange planet there were N kingdoms numbered 1 to N. Each kingdom had a jack, queen and a king who either said something good or something bad. The following is what goes on on this planet:
+1. At the fall of each cannon ball in the kingdom, its queen makes a statement. She would say something good if and only if:
+-- The jack said something good that day and the queen said something bad the previous day. OR
+-- The king said something bad that day and the queen said something good the previous day.
+2. Whenever the queen of a (Mth) kingdom makes a bad statement immediately after a good one, the people get angry and fire a cannon into the next(M+1 th) kingdom.
+3. Since this gives an undue advantage to kingdom 1, the evil galactic empire has placed a cannon before it which fires each day no matter what.
+One day a special meet was called after which the jacks and kings decided to say good things always. On this day all N queens happened to give a bad statement.
+After 4095 days, you happen to notice that all the queens are saying a good statement. What is the sum of all possible values of N?
+ans) 78
+
+Stage 4
+1 + 1 = ?
+ans) 2
+
+2 + 2 = ?
+Hint: Inspect Both Questions Closely  ಠ⌣ಠ
+ans) 4
+
+Stage 5
+Thinking your entire college life is all happy and lite?<br>Bad news: Note that, only the very first part is lite, life is only darker afterwards ;<
+pic: white.svg
+ans) cglite
+
+Stage 6
+Noobs can't reach the end of this one:
+pic: noob.jpg
+ans) whentheredstarts
+
+Stage 7
+Guess the Indian airport
+pic: circuit.png
+ans) carnicobar
+
+Stage 8
+pic1: assasin.png
+ans part 1) medial
+pic2: medial.jpg
+ans part 2) finalanswer
+
+Stage 9
+Enter your desire:(in lowercase)
+ans) light of the seven

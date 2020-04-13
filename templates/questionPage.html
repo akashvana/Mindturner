@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="/static/styles.css" rel="stylesheet" type="text/css">
+    <title>Mindturner Stage {{ stage+1 }}</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li>Stage: {{ stage+1 }}</li>
+        {% if links>0 %}
+        <li>Special Question</li>
+        {% endif %}
+        <li>{{ name }}</li>
+        <li class="button"><a href="{{ url_for('logout') }}">Logout</a></li>
+      </ul>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="message-{{ category }}">
+            {{ message }}
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div class="questionpage">
+      <div class="question-container">
+        <form method="POST">
+          {% for index,(question,options) in questions %}
+          <fieldset style="margin-bottom: 10px">
+              <legend>Question {{index+1}}</legend>
+              <div class="question">
+                  {{ question|safe }}<br>
+                  {% if images[index] != '' %}
+                    <img style="margin-left: auto; margin-right: auto; display:block; max-width: 500px" src='/static/{{ images[index] }}'><br>
+                  {% endif %}
+                  {% if options == "text" %}
+                    <input type="text" name="question-{{ index+1 }}"><br>
+                  {% elif options != "none" %}
+                  {% for option in options %}
+                    <input type="radio" name="question-{{ index+1 }}" value="{{ option }}"> {{ option }}
+                  {% endfor %}<br>
+                  {% endif %}
+              </div>
+            </fieldset>
+          {% endfor %}
+          {% if length > links %}
+          <input type="submit" value="Check!">
+          {% endif %}
+        </form>
+      </div>
+      <div class="rightside">
+        <div class="slide">
+          <ul class="leaderboard">
+            <table>
+              <p style="text-align: center; font-size: large; margin: 5px 0px;">Leaderboard</p>
+              {% for entry in leaderboard %}
+                <tr>{{ entry|safe }}</tr>
+              {% endfor %}
+            </table>
+          </ul>
+          {% if links>0 %}
+          <ul class="qrules">
+            <li>Special Question</li>
+            <li>Trail the answer with forward slash(/)</li>
+            <li>In the question link to continue</li>
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

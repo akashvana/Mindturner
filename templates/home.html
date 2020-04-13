@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="/static/styles.css" rel="stylesheet" type="text/css"/>
+    <title>Mindturner by CSA</title>
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="title">
+        <div style="margin: auto"><h1 style="font-size: 2.5em; margin: 5px;">Mindturner</h1><p>by CSA</p></div>
+        <img src='/static/csa.jpg' style="margin-left: auto; max-height: 100%; border-color: #222; border-style: solid;">
+      </div>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, message in messages %}
+            <div class="message-{{ category }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+
+      <div class="forms">
+        <div class="register-form">
+          <form action="{{url_for('register')}}" method="POST">
+            <fieldset style="border-radius: 10px">
+                <p class="logreg">Register</p>
+                <div class="register-form">
+                   <label for="username">Username:</label><input type="text" id="username" name="username" pattern="{{ userFormat }}" required title="Username must be 5 to 10 characters long"><br>
+                   <label for="email">Email:</label><input type="email" id="email" pattern="{{ emailFormat }}" name="email" required title="Enter BITS Mail"><br>
+                   <label for="phone">Phone:</label><input type="tel" id="phone" name="phone" pattern="{{ phoneFormat }}" required title="Enter 10 digit Phone Number"><br>
+                   <label for="password">Password:</label><input type="password" id="password" name="password" pattern="{{ passwordFormat }}" required title="Password must be 5 to 20 characters long"><br>
+                   <input type="submit" value="Sign Up">
+                </div>
+             </fieldset>
+           </form>
+        </div>
+        <div class="login-form">
+         <form action="{{url_for('login')}}" method="POST">
+           <fieldset style="border-radius: 10px">
+               <p class="logreg">Login</p>
+               <div class="login-form">
+                 <label for="username">Username:</label><input type="text" id="username" name="username" pattern="{{ userFormat }}" required title="Username must be 5 to 10 characters long"><br>
+                 <label for="password">Password:</label><input type="password" id="password" name="password" pattern="{{ passwordFormat }}" required title="Password must be 5 to 20 characters long"><br>
+                  <input type="submit" value="Sign In">
+               </div>
+            </fieldset>
+         </form>
+        </div>
+
+         <div class="rules">
+           <ul>
+             <p style="font-size: large">Rules/Info:</p>
+              <li>Mindturner is a two day long event</li>
+              <li>You are free to use the Internet</li>
+              <li>There are some special questions where you have to visit a link to advance</li>
+              <li>In such questions, you can trail the answer in the link to continue (Mindturner/solve/answer)</li>
+              <li>In case of multiple special questions, you can answer any one to continue</li>
+             <p style="text-align: center; font-size: large">Enjoy!</p>
+            </ul>
+         </div>
+         </div>
+      </div>
+     </body>
+   </html>
