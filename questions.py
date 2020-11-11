@@ -20,7 +20,7 @@ stage2={    '''Decode the following puzzles:<br>
                3. MINT + PE'P'PER + TOMAT'O' = CARROT<br><br>
                Using characters(lowercase) or decoded numbers in apostrophe, fill the (space)(s) in<br>
                https://www.bits-pilani.ac.in/Pilani/listing.aspx?c(space)d=5(space)5&(space)d=110<br><br>
-               What is the ping ip address?''':'text',
+               What is the ping ip address? [NOTE: THIS QUESTION HAS BEEN UPDATED AS THERE WAS AN ERROR EARLIER]''':'text',
             '''If DD = 24<br>
                 EEE = 93<br>
                 NEED = 344<br>
@@ -33,7 +33,7 @@ stage2={    '''Decode the following puzzles:<br>
                 Then what is 21^8/4?''':['441',':-{',':-D',':\')',';-)','(¬_¬)']
             }
 images2=['','','']
-answers2=['172.22.2.53','89',':\')']
+answers2=['117.220.175.231','89',':\')']
 
 stage3={    '''Tom uses an algorithm to decide which website will he visit today. The website begins with address like Mindturner/solve/... but he doesnt remember what came after the '/'. What he does remember is the algorithm. The next letters in the link are given by the following algo:<br><br>
 	           Rule 1:   The digits in that days date (dd/m) appear in the link. One digit appears exactly once<br>
@@ -80,6 +80,6 @@ stage7={    'Guess the Indian airport':'none'
 images7=['circuit.png']
 answers7=['carnicobar']
 
-questionSet=[stage1,stage2,stage3,stage4,stage5,stage6,stage7]
-imageSet=[images1,images2,images3,images4,images5,images6,images7]
-answerSet=[answers1,answers2,answers3,answers4,answers5,answers6,answers7]
+questionSet=[stage1,stage2,stage4,stage5,stage7,stage6]
+imageSet=[images1,images2,images4,images5,images7,images6]
+answerSet=[answers1,answers2,answers4,answers5,answers7,answers6]

@@ -8,7 +8,7 @@ from flask_limiter.util import get_remote_address
 from waitress import serve
 import re
 userFormat=".{5,10}"
-emailFormat="[f,h]201.{4,5}@pilani.bits-pilani.ac.in"
+emailFormat="[f,h]2020.{4}@pilani.bits-pilani.ac.in"
 phoneFormat="[0-9]{10}"
 passwordFormat=".{5,20}"
 
@@ -224,5 +224,6 @@ def getLeaderboard():
 
 if __name__ == '__main__':
     #app.run(debug=False,host='0.0.0.0')    #local network with debug
-    #app.run(debug=True)                    #locl machine with debug
-    serve(app,host='0.0.0.0',port=5000)     #for hosting
+    # app.run(debug=True)                    #locl machine with debug
+    #serve(app,host='0.0.0.0',port=5000)     #for hosting
+    app.run(host='0.0.0.0')
